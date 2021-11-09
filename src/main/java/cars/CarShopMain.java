@@ -4,7 +4,7 @@ public class CarShopMain {
 
     public static void main(String[] args) {
 
-        ///1. rész
+//        ///1. rész
         Car car1 = new Car("Toyota", 1.2, Color.BLACK, 2_300_000);
         Car car2 = new Car("Lamborghini", 5.2, Color.BLACK, 10_300_000);
 
@@ -21,7 +21,7 @@ public class CarShopMain {
         System.out.println(carShop.getCarsForSell().get(0).getPrice()); //2070000
 
 
-        //2. rész
+//        //2. rész
         Car car3 = new Car("Suzuki", 1.4, Color.RED, 1_500_000);
         Car car4 = new Car("Toyota", 1.4, Color.GREY, 2_700_000);
 
